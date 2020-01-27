@@ -9,5 +9,10 @@ class Meal
     @total = total
     @tip = tip
     @@all << self
+  end
+
+  def self.all
+    @@all
+  end
 
 end
